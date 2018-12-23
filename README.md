@@ -1,4 +1,5 @@
 # validatecsv
+[![Build Status](https://travis-ci.com/netsatan/validatecsv.svg?branch=master)](https://travis-ci.com/netsatan/validatecsv)
 ## What is it? 
 It's a small project created in Groovy allowing you to test if generated CSV is valid in terms of data types, cell lenght, format etc. 
 
