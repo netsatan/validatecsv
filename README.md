@@ -6,16 +6,8 @@ It can be used to help you make sure that data exported from your system is corr
 sanitization.
 
 ## Getting started
-### Installing
-You can get this library from MavenCentral repository, depending on your build system:
-####Gradle
-Add this line to ``dependencies``:
-```
-compile  'pl.bartoszbudzynski.csvvalidator'
-``` 
-
 ### Examples
-Set up the validation pl.bartoszbudzynski.csvvalidator.rules first:
+Set up the pl.bartoszbudzynski.csvvalidator.rules.ValidationRules first:
 
 
 ```
@@ -23,12 +15,14 @@ def rules = {
     column[0] = DataType.INT
     column[1] = DataType.STRING
     column[3] = Format.of('\\d{3}')
-    column[5] = [Format.length(max=3), DataType.FLOAT]
+    column[5] = [Format.length(max: 3), DataType.FLOAT]
 }
 ```
 
 You can set up validation rules for all columns or only the ones you actually want to validate.
 There might be a one rule or a whole list, as in example with column indexed with number 5.
+
+After that, simply create an instance of CsvValidator: `CsvValidator validator = new CsvValidator(csv, rules)` and call `validator.validate()`.
 
 ### Running the rests
 Tests are written using Spock. You can run them by simply typing
