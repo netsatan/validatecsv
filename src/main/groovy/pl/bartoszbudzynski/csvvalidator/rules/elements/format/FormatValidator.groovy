@@ -5,7 +5,7 @@ import pl.bartoszbudzynski.csvvalidator.exceptions.ColumnLengthViolatesConstrain
 
 class FormatValidator {
 
-    def regex
+    String regex
     Integer maxLength
     Integer minLength
     Integer exactLength
