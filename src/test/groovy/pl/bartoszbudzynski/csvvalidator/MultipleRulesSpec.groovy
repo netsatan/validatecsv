@@ -75,7 +75,7 @@ class MultipleRulesSpec extends Specification {
 
 
         then:
-        "No exception should be thrown as column[1] matches STRING rule"
+        "No exception should be thrown as column[1] matches STRING rule, and it's length is within constraints."
         notThrown(CsvValidationException)
     }
 
