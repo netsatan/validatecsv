@@ -8,7 +8,7 @@ sanitization.
 ## Getting started
 ### Installing
 You can get this library from MavenCentral repository, depending on your build system:
-####Gradle
+#### Gradle
 Add this line to ``dependencies``:
 ```
 compile  'pl.bartoszbudzynski.csvvalidator'
