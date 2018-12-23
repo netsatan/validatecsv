@@ -6,14 +6,6 @@ It can be used to help you make sure that data exported from your system is corr
 sanitization.
 
 ## Getting started
-### Installing
-You can get this library from MavenCentral repository, depending on your build system:
-#### Gradle
-Add this line to ``dependencies``:
-```
-compile  'pl.bartoszbudzynski.csvvalidator'
-``` 
-
 ### Examples
 Set up the validation pl.bartoszbudzynski.csvvalidator.rules first:
 
