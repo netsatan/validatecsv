@@ -1,7 +1,7 @@
 # validatecsv
 [![Build Status](https://travis-ci.com/netsatan/validatecsv.svg?branch=master)](https://travis-ci.com/netsatan/validatecsv)
 ## What is it? 
-It's a small project created in Groovy allowing you to test if generated CSV is valid in terms of data types, cell lenght, format etc. 
+It's a small project created in Groovy allowing you to test if generated CSV is valid in terms of data types, cell length, format etc. 
 
 It can be used to help you make sure that data exported from your system is correct and as a safeguard for data 
 sanitization.
@@ -39,7 +39,7 @@ There might be a one rule or a whole list, as in example with column indexed wit
 
 After that, simply create an instance of CsvValidator: `CsvValidator validator = new CsvValidator(csv, rules)` and call `validator.validate()`.
 
-### Running the rests
+### Running the tests
 Tests are written using Spock. You can run them by simply typing
 ```./gradlew test```.
 
