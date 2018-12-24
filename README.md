@@ -17,7 +17,7 @@ repositories {
 }
 ```
 
-Then this line to `dependencies`:
+Then add this line to `dependencies`:
 ```
 compile "com.github.netsatan:validatecsv:0.0.1"
 ``` 
