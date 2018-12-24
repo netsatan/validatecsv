@@ -11,7 +11,8 @@ sanitization.
 You can get this library from JitPack repository, depending on your build system:
 #### Gradle
 First, add JitPack to your `repositories`: 
-```repositories {
+```
+repositories {
        maven { url 'https://jitpack.io' }
 }
 ```
